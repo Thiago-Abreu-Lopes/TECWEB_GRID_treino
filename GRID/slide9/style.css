@@ -1,0 +1,60 @@
+
+
+.H,.F{
+    background-color: blue;
+    color:#ffffff;
+}
+.A,.B,.D,.E,.G,.I{
+    background: #cccccc;
+}
+.box{
+    border:1px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr,1fr,3fr,1fr,1fr;
+    grid-template-rows: repeat(8,1fr);
+    
+}
+.H{
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+.C{
+    grid-column: 3/4;
+    grid-row: 2/8;
+}
+.F{
+    grid-column: 3/4;
+    grid-row:8/9;
+}
+.D{
+    grid-column: 1/2;
+    grid-row: 5/7;
+}
+.A{
+    grid-column: 2/3;
+    grid-row:4/6;
+}
+.I{
+    grid-column: 2/3;
+    grid-row:6/8;
+}
+.B{
+    grid-column: 4/5;
+    grid-row:2/4;
+}
+.E{
+    grid-column: 4/5;
+    grid-row:4/6;
+}
+.G{
+    grid-column: 5/6;
+    grid-row:3/5;
+}
+
+

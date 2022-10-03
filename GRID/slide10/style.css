@@ -1,0 +1,78 @@
+.H,
+.F {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.A,
+.B,
+.D,
+.E,
+.G,
+.I {
+    background: #cccccc;
+}
+
+.box {
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr, 2fr, 2fr;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.H {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.C {
+    grid-column: 2/4;
+    grid-row: 1/5;
+}
+
+.F {
+    display: none;
+    grid-column: 3/4;
+    grid-row: 8/9;
+}
+
+.D {
+    grid-column: 4/6;
+    grid-row: 3/4;
+}
+
+.A {
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+.I {
+    display: none;
+    grid-column: 2/3;
+    grid-row: 6/8;
+}
+
+.B {
+    grid-column: 4/6;
+    grid-row: 2/3;
+}
+
+.E {
+    grid-column: 4/6;
+    grid-row: 4/5;
+}
+
+.G {
+    display: none;
+    grid-column: 5/6;
+    grid-row: 3/5;
+}

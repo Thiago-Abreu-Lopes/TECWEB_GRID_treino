@@ -1,0 +1,49 @@
+
+
+.H,.F{
+    background-color: blue;
+    color:#ffffff;
+}
+.A,.B,.D,.E,.G{
+    background: #cccccc;
+}
+.A{
+    grid-area: A;
+}
+.B{
+    grid-area: B;
+}
+.C{
+    grid-area: C;
+}
+.D{
+    display: none;
+    grid-area: D;
+}
+.E{
+    display: none;
+    grid-area: E;
+}
+.F{
+    grid-area: F;
+}
+.G{
+    display: none;
+    grid-area: G;
+}
+.H{
+    grid-area: H;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-areas:
+     "H H H H"
+     "B C C A"
+     "B F F F"
+    ;
+}
+
